@@ -45,6 +45,6 @@ let numero2 = parseFloat(prompt("Ingrese el segundo número"));
 
 let operacion = prompt("Ingrese la operación(suma, resta, division, multiplicacion)")
 
-let resultado = calculadora(numero1, numero2);
+let resultado = calculadora(numero1, numero2, operacion);
 
 document.write("El resultado es: ", + resultado);
