@@ -17,10 +17,9 @@ function multiplicacion(a,b){
 // función división
 function division(a,b){
     if (b === 0){
-
         return "Error en la divión, no se puede divir entre 0"
-    }
-} return a/b;
+    } return a/b;
+ }
 
 
 // función calculadora
